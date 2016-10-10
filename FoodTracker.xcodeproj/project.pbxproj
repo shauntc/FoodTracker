@@ -16,6 +16,8 @@
 		285342781DAC17AA00E2C6DC /* CloudTrackerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285342771DAC17AA00E2C6DC /* CloudTrackerController.swift */; };
 		2853427A1DAC2BCC00E2C6DC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285342791DAC2BCC00E2C6DC /* Constants.swift */; };
 		2853427C1DAC2F3F00E2C6DC /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2853427B1DAC2F3F00E2C6DC /* RatingControl.swift */; };
+		285342801DAC4DB700E2C6DC /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2853427F1DAC4DB700E2C6DC /* AddItemViewController.swift */; };
+		285342821DAC50F900E2C6DC /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285342811DAC50F900E2C6DC /* Meal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		285342771DAC17AA00E2C6DC /* CloudTrackerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudTrackerController.swift; sourceTree = "<group>"; };
 		285342791DAC2BCC00E2C6DC /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		2853427B1DAC2F3F00E2C6DC /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		2853427F1DAC4DB700E2C6DC /* AddItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		285342811DAC50F900E2C6DC /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,7 @@
 			children = (
 				285342621DAC15B000E2C6DC /* ViewController.swift */,
 				2853427B1DAC2F3F00E2C6DC /* RatingControl.swift */,
+				2853427F1DAC4DB700E2C6DC /* AddItemViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -96,6 +101,7 @@
 				285342601DAC15B000E2C6DC /* AppDelegate.swift */,
 				285342771DAC17AA00E2C6DC /* CloudTrackerController.swift */,
 				285342791DAC2BCC00E2C6DC /* Constants.swift */,
+				285342811DAC50F900E2C6DC /* Meal.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -175,9 +181,11 @@
 			files = (
 				285342631DAC15B000E2C6DC /* ViewController.swift in Sources */,
 				285342611DAC15B000E2C6DC /* AppDelegate.swift in Sources */,
+				285342821DAC50F900E2C6DC /* Meal.swift in Sources */,
 				285342781DAC17AA00E2C6DC /* CloudTrackerController.swift in Sources */,
 				2853427C1DAC2F3F00E2C6DC /* RatingControl.swift in Sources */,
 				2853427A1DAC2BCC00E2C6DC /* Constants.swift in Sources */,
+				285342801DAC4DB700E2C6DC /* AddItemViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

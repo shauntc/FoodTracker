@@ -75,10 +75,10 @@
             </objects>
             <point key="canvasLocation" x="2004" y="791"/>
         </scene>
-        <!--View Controller-->
+        <!--Add Item View Controller-->
         <scene sceneID="KPl-cO-Ufj">
             <objects>
-                <viewController storyboardIdentifier="addItemViewController" id="0rf-TQ-LmO" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="addItemViewController" id="0rf-TQ-LmO" customClass="AddItemViewController" customModule="FoodTracker" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="PAn-Xc-Pcq"/>
                         <viewControllerLayoutGuide type="bottom" id="8Kl-V0-Kyr"/>
@@ -89,6 +89,10 @@
                         <subviews>
                             <view contentMode="scaleToFill" placeholderIntrinsicWidth="240" placeholderIntrinsicHeight="44" translatesAutoresizingMaskIntoConstraints="NO" id="qLu-58-7DE" customClass="RatingControl" customModule="FoodTracker" customModuleProvider="target">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="CwI-LX-ui5"/>
+                                    <constraint firstAttribute="height" constant="44" id="olO-bV-Qpe"/>
+                                </constraints>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NaA-3f-aCM">
                                 <constraints>
@@ -121,6 +125,12 @@
                             <constraint firstAttribute="trailingMargin" secondItem="U09-zz-LaP" secondAttribute="trailing" id="yGg-Hd-j6R"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mealNameLabel" destination="9Kl-Ac-2aD" id="Rw5-Se-r6s"/>
+                        <outlet property="nameTextField" destination="U09-zz-LaP" id="sDC-Dw-ab6"/>
+                        <outlet property="photoImageView" destination="NaA-3f-aCM" id="1a9-wc-eKK"/>
+                        <outlet property="ratingControl" destination="qLu-58-7DE" id="yVx-nQ-ncb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B40-ys-UI1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
